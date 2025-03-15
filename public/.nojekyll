@@ -1,0 +1,4 @@
+touch public/.nojekyll
+git add public/.nojekyll
+git commit -m "Add .nojekyll"
+npm run deploy
