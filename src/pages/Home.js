@@ -1,14 +1,18 @@
 // src/pages/Home.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (
     <>
       <div className="hero">
         <div className="hero-content">
-          <h1>Welcome to Our Page, we Offer the Best CCTV Services & Products. We are reliable and efficient.</h1>
+          <h1>
+            Welcome to Our Page, we Offer the Best CCTV Services & Products. 
+            We are reliable and efficient.
+          </h1>
           <p>Explore premium products and services with elegance.</p>
-          <a href="/services" className="btn btn-gold mt-3">View Services</a>
+          <Link to="/services" className="btn btn-gold mt-3">View Services</Link>
         </div>
       </div>
       <div className="container section text-center">
