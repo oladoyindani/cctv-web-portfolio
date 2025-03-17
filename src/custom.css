@@ -198,3 +198,58 @@ body {
     height: 150px;
   }
 }
+
+/* --- Base & Desktop Styles (unchanged) --- */
+
+/* Navbar, Hero, Cards, Footer, etc. */
+/* ... your existing code ... */
+
+/* --- Mobile Styles for Screens ≤ 576px --- */
+@media (max-width: 576px) {
+  /* Navbar */
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  .navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+  }
+  .navbar-nav .nav-link {
+    font-size: 0.9rem;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 60vh;
+    padding: 0 1rem;
+  }
+  .hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero-content p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .btn-gold {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  /* Global Text & Headings */
+  body {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  h1, h2, h3 {
+    line-height: 1.2;
+  }
+
+  /* Cards */
+  .card-img-top {
+    height: 160px;
+  }
+  .section {
+    padding: 2rem 1rem;
+  }
+}
