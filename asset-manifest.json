@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cctv-web-portfolio/static/css/main.2d1806ae.css",
-    "main.js": "/cctv-web-portfolio/static/js/main.f2487a8c.js",
+    "main.css": "/cctv-web-portfolio/static/css/main.899953aa.css",
+    "main.js": "/cctv-web-portfolio/static/js/main.03616a75.js",
     "index.html": "/cctv-web-portfolio/index.html",
-    "main.2d1806ae.css.map": "/cctv-web-portfolio/static/css/main.2d1806ae.css.map",
-    "main.f2487a8c.js.map": "/cctv-web-portfolio/static/js/main.f2487a8c.js.map"
+    "main.899953aa.css.map": "/cctv-web-portfolio/static/css/main.899953aa.css.map",
+    "main.03616a75.js.map": "/cctv-web-portfolio/static/js/main.03616a75.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d1806ae.css",
-    "static/js/main.f2487a8c.js"
+    "static/css/main.899953aa.css",
+    "static/js/main.03616a75.js"
   ]
 }
